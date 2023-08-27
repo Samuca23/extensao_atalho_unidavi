@@ -1,3 +1,30 @@
 {
-    "manifest.json": 2
+    "manifest.json": 2,
+    "name": "Atalhos - Unidavi",
+    "version": "1.0",
+    "description": "Atalhos para os estudantes da Unidavi",
+    "icons": {
+        "48": "logo_unidavi.png",
+        "128": "logo_unidavi.png"
+    },
+    "option_page": "option.html",
+    "browser_action": {
+        "default_icon": {
+            "19": "logo_unidavi.png",
+            "38": "logo_unidavi.png"
+        },
+        "default_title": "Atalhos - Unidavi",
+        "default_popup": "index.hmtl"
+    },
+    "content_script": [
+        {
+            "js": [
+                "src/main.js"
+            ],
+            "matches": [
+                "*://*/*",
+                "<all_urls>"
+            ]
+        }
+    ]
 }
