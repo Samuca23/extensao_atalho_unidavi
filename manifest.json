@@ -8,8 +8,7 @@
         "128": "img/logo_unidavi.png"
     },
     "background": {
-        "scripts": ["src/background.js"],
-        "persistent": false
+        "service_worker": "src/background.js"
     },
     "options_page": "src/pages/option.html",
     "browser_action": {
@@ -20,7 +19,7 @@
         "default_title": "Atalhos - Unidavi",
         "default_popup": "src/pages/index.html"
     },
-    "content_script": [
+    "content_scripts": [
         {
             "js": [
                 "src/main.js"
