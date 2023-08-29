@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Atalhos - Unidavi",
     "version": "1.0",
     "description": "Atalhos para os estudantes da Unidavi",
@@ -7,11 +7,8 @@
         "48": "img/logo_unidavi.png",
         "128": "img/logo_unidavi.png"
     },
-    "background": {
-        "service_worker": "src/background.js"
-    },
     "options_page": "src/pages/option.html",
-    "browser_action": {
+    "action": {
         "default_icon": {
             "19": "img/logo_unidavi.png",
             "38": "img/logo_unidavi.png"
