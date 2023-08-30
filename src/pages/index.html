@@ -1,45 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atalhos - Unidavi</title>
 </head>
+
 <body>
-    <div class="container">
-        <header>
-            <span class="title-header">Atalhos Unidavi</span>
-        </header>
+    <header>
         <nav>
-            <div class="area-links">
-                <a href="https://www.unidavi.edu.br/" target="_blank">Unidavi</a>
-                <a href="https://mentor.unidavi.edu.br/" target="_blank">Mentor</a>
-                <a href="https://www.unidavi.edu.br/biblioteca" target="_blank">Biblioteca</a>
-                <a href="http://www.acervo.unidavi.edu.br/pergamum/biblioteca/index.php" target="_blank">Biblioteca Online</a>
-                <a href="https://www.unidavi.edu.br/bolsasEstudo" target="_blank">Bolsas de Estudo</a>
-                <a href="https://www.unidavi.edu.br/noticia" target="_blank">Notícias</a>
-                <a href="https://www.instagram.com/universo.unidavi/" target="_blank">Instagram</a>
-                <a href="https://api.whatsapp.com/send?phone=554735316000" target="_blank">WhatsApp</a>
-            </div>
+            <span class="title-header">Atalhos Unidavi</span>
         </nav>
-    </div>
+    </header>
+    <main>
+        <div class="area-links">
+            <a href="https://www.unidavi.edu.br/" target="_blank">Unidavi</a>
+            <a href="https://mentor.unidavi.edu.br/" target="_blank">Mentor</a>
+            <a href="https://www.unidavi.edu.br/biblioteca" target="_blank">Biblioteca</a>
+            <a href="http://www.acervo.unidavi.edu.br/pergamum/biblioteca/index.php" target="_blank">Biblioteca Online</a>
+            <a href="https://www.unidavi.edu.br/bolsasEstudo" target="_blank">Bolsas de Estudo</a>
+            <a href="https://www.unidavi.edu.br/noticia" target="_blank">Notícias</a>
+        </div>
+    </main>
+    <footer>
+        <div class="area-redes-sociais">
+            <a href="https://www.instagram.com/universo.unidavi/" target="_blank">Instagram</a>
+            <a href="https://api.whatsapp.com/send?phone=554735316000" target="_blank">WhatsApp</a>
+        </div>
+    </footer>
 </body>
+
 </html>
 <style>
-    .container {
-        width: 250px; 
-        height: 300px; 
+    body {
+        width: 250px;
+        height: 300px;
         font-size: 18px;
+        margin: 0px;
     }
-    
-    .container a {
-        text-decoration: none;
-        color: red;
+
+    header {
+        text-align: center;
+        padding: 8px;
+        color: #007bff;
+        font-weight: bold;
+    }
+
+    main {
+        background-color: #0d47a1;
+        padding: 10px;
     }
 
     .area-links {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .area-links a {
+        color: #ffffff;
+        text-decoration: none;
+        margin: 2px;
+    }
+
+    .area-links a:hover{
+        font-weight: 600;
+    }
+
+    footer {
+        background-color: #ffffff;
+        height: 72px;
+    }
+
+    footer a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    .area-redes-sociais {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-right: 5px;
     }
 </style>
