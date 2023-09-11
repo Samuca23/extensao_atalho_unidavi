@@ -48,7 +48,7 @@ footer a {
     flex-direction: row;
     width: 100%;
     height: 100%;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-end;
     margin-right: 5px;
 }
@@ -59,4 +59,33 @@ footer a {
 
 .itens {
     padding: 3px;
+}
+
+.link {
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    margin: 5px;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.link-facebook {
+    background-color: #3b5998 !important;
+}
+
+.link-instagram {
+    background: linear-gradient(40deg, #ff6ec4, #7873f5) !important;
+}
+
+.link-whatsapp {
+    background-color: #25d366 !important;
+}
+
+.icon {
+    display: inline-block;
+    width: inherit;
+    color: #fff;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 33px !important;
 }
