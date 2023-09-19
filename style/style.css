@@ -51,6 +51,8 @@ footer a {
     justify-content: center;
     align-items: flex-end;
     margin-right: 5px;
+    align-items: center;
+    justify-content: center;
 }
 
 .lista {
